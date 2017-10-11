@@ -1,0 +1,80 @@
+
+.menuImage {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.menuContainer {
+  position: fixed;
+  height: 100%;
+  width: 300px;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: url('../images/city_background.jpg');
+  background-size: 300% 100%;
+  background-color: #6389A3;
+  background-blend-mode: multiply;
+  color: white;
+}
+
+.aboutMeSection {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80px;
+  width: 100%
+}
+
+.titleSection {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+  width: 100%;
+}
+
+.menuItem {
+  margin-left: 80px;
+  margin-top: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  color: lightBlue;
+}
+
+.selectedItem {
+  margin-left: 80px;
+  margin-top: 5px;
+  color: #28c9b9;
+  text-decoration: none;
+}
+
+.selectedItem::after {
+  position: absolute;
+  width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-right: 10px solid white;
+	border-bottom: 5px solid transparent;
+  right: 0px;
+  content: "";
+  margin-top: 2px;
+}
+
+.selected::after {
+  color: #28c9b9;
+  content: '>';
+}
+
+
+menuItem::after {
+
+}

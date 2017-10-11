@@ -1,0 +1,117 @@
+.portfolioContainer{
+  margin-left: 300px;
+  flex-direction: column;
+}
+
+.portfolioTopBar {
+  width: 100%;
+  height: 100px;
+  background-color: #28c9b9;
+  opacity: 0.9;
+}
+
+.portfolioTopBarTitle {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  font-size: 30px;
+  color: white;
+}
+
+.timelineItem {
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  display: flex;
+  height: auto;
+}
+
+
+.timelineDate {
+  text-align: center;
+  font-size: 15px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.timelineLine {
+  height: auto;
+  width: 50px;
+  border-right: 1px dotted grey;
+}
+
+.timelineCircle {
+  margin-top: 10px;
+  margin-left:35px;
+  height: 30px;
+  width: 30px;
+  top: 0px;
+}
+
+.timelineTextContainer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+
+.nodeTitle {
+  font-size: 22px;
+}
+
+.nodeBody {
+  text-align: left;
+  font-size: 16px;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.timelineApp {
+  color: grey;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  display: flex;
+  text-align: left;
+}
+
+.timelineAppDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.timelineAppPhoto {
+ height: 300px;
+ width: 175px;
+ margin-left: 10px;
+}
+
+.timelineWebsitePhoto {
+  height: 200px;
+  width: 300px;
+  border-color: lightGrey;
+  border-style: solid;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+.timelineWebsiteDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 400px;
+}
+
+.timelineAppText {
+  font-size: 16px;
+  max-width: 600px;
+}
+
+.timelineli {
+  text-align: left;
+  color: Grey;
+  font-size: 18px;
+}
