@@ -1,13 +1,19 @@
 {
-  "main.css": "static/css/main.bc2c005b.css",
-  "main.css.map": "static/css/main.bc2c005b.css.map",
-  "main.js": "static/js/main.a30f0741.js",
-  "main.js.map": "static/js/main.a30f0741.js.map",
+  "main.css": "static/css/main.858a4b61.css",
+  "main.css.map": "static/css/main.858a4b61.css.map",
+  "main.js": "static/js/main.bf91aa25.js",
+  "main.js.map": "static/js/main.bf91aa25.js.map",
   "static/media/ander1.png": "static/media/ander1.ca5f9e64.png",
   "static/media/besmart1.png": "static/media/besmart1.e6ca64e9.png",
   "static/media/besmart2.png": "static/media/besmart2.fb947b47.png",
   "static/media/city_background.jpg": "static/media/city_background.d56397ac.jpg",
+  "static/media/css.png": "static/media/css.8d03214a.png",
+  "static/media/github.png": "static/media/github.f53cb06a.png",
+  "static/media/java.png": "static/media/java.29eec4d9.png",
   "static/media/myalibi1.png": "static/media/myalibi1.4d4b9b8f.png",
   "static/media/myalibi2.png": "static/media/myalibi2.4353aab6.png",
-  "static/media/profileImage.png": "static/media/profileImage.864a7efb.png"
+  "static/media/profileImage.png": "static/media/profileImage.864a7efb.png",
+  "static/media/python.png": "static/media/python.efacdca8.png",
+  "static/media/react.png": "static/media/react.b8b87c46.png",
+  "static/media/react_native.png": "static/media/react_native.a3f503f8.png"
 }
