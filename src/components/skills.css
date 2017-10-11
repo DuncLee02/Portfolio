@@ -1,0 +1,53 @@
+.skillsContainer{
+  /*width: 100%;*/
+  text-align: left;
+  display: flex;
+  margin-left: 220px;
+  flex-direction: column;
+}
+
+.skillsTopBar {
+  width: 100%;
+  height: 100px;
+  background-color: #28c9b9;
+  opacity: 0.9;
+}
+
+.skillsHeader {
+  margin: 40px;
+  font-size: 30px;
+  color: white;
+}
+
+.skillsIntro {
+  margin: 20px;
+  font-size: 20px;
+  color: grey;
+}
+
+.skillSetContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skillItem {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  width: 150px;
+  background-color: #ededed;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.skillItemHeader{
+
+}
+
+.skillIcon {
+  height: 120px;
+  width: 120px;
+}

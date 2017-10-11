@@ -1,14 +1,14 @@
 
 .menuImage {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
 }
 
 .menuContainer {
   position: fixed;
   height: 100%;
-  width: 300px;
+  width: 220px;
   top: 0px;
   left: 0px;
   display: flex;
@@ -25,8 +25,8 @@
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  height: 80px;
+  justify-content: flex-end;
+  height: 40px;
   width: 100%
 }
 
@@ -35,7 +35,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 250px;
+  height: 220px;
   width: 100%;
 }
 
@@ -62,7 +62,7 @@
   width: 0;
 	height: 0;
 	border-top: 5px solid transparent;
-	border-right: 10px solid white;
+	border-right: 15px solid white;
 	border-bottom: 5px solid transparent;
   right: 0px;
   content: "";

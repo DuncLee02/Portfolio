@@ -8,7 +8,7 @@ class Portfolio extends Component {
 
       <div className='portfolioTopBar'>
         <br/>
-        <text className='portfolioTopBarTitle'> PORTFOLIO </text>
+        <text className='portfolioHeader'> PORTFOLIO </text>
       </div>
 
       <div className="timelineItem">
@@ -38,7 +38,7 @@ class Portfolio extends Component {
                 <li className='timelineAppText'> A clean, custom searchbar  </li>
                 <li className='timelineAppText'> Responsive information pages </li>
                 <li className='timelineAppText'> A google login </li>
-                <li className='timelineAppText'>  </li>
+                <li className='timelineAppText'> Firebase backend </li>
                 <br/>
               </ul>
               <img src={require('../images/ander1.png')} className='timelineWebsitePhoto' alt='ander'/>
@@ -94,7 +94,7 @@ class Portfolio extends Component {
                       <br/>
                       <text className='timelineAppText'> MyAlibi is an iOS application that records and verifies (through the fingerprint scanner) users location and speed throught the day</text>
                       <br/>
-                      <text className='timelineAppText'> this information could be used to prove ones location at a certain time, prove your speed to an officer, or track the movements of your children</text>
+                      <text className='timelineAppText'> This information could be used to prove ones location at a certain time, prove your speed to an officer, or track the movements of your children</text>
                       <br/>
                       <text className='timelineAppText'> For reasons unknown to me this app never made it to the appstore, but screenshots are provided! </text>
                       <br/>

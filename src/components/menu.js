@@ -6,7 +6,6 @@ class Menu extends Component {
   render() {
 
     var currentPath = this.props.location.pathname
-    console.log(currentPath)
 
     return (
       <div className="menuContainer">
@@ -18,18 +17,18 @@ class Menu extends Component {
         </div>
 
         <div className="aboutMeSection">
-          <Link className={currentPath==='/about' ? 'selectedItem': 'menuItem'} to = 'about'>
-            <text className={currentPath==='/about' ? 'selected': null}> About </text>
+          <Link className={currentPath==='/Portfolio/about' ? 'selectedItem': 'menuItem'} to = 'about'>
+            <text className={currentPath==='/Portfolio/about' ? 'selected': null}> About </text>
           </Link>
-          <Link className={currentPath==='/portfolio' ? 'selectedItem': 'menuItem'} to = 'portfolio'>
-            <text className={currentPath==='/portfolio' ? 'selected': null}> Portfolio </text>
+          <Link className={currentPath==='/Portfolio/portfolio' ? 'selectedItem': 'menuItem'} to = 'portfolio'>
+            <text className={currentPath==='/Portfolio/portfolio' ? 'selected': null}> Portfolio </text>
           </Link>
-          <Link className={currentPath==='/skills' ? 'selectedItem': 'menuItem'} to = 'skills'>
-            <text className={currentPath==='/skills' ? 'selected': null}> Skills </text>
+          <Link className={currentPath==='/Portfolio/skills' ? 'selectedItem': 'menuItem'} to = 'skills'>
+            <text className={currentPath==='/Portfolio/skills' ? 'selected': null}> Skills </text>
           </Link>
 
-          <Link style= {{'marginTop': 20}} className={currentPath==='/contact' ? 'selectedItem': 'menuItem'} to = 'contact'>
-            <text className={currentPath==='/contact' ? 'selected': null}> Contact </text>
+          <Link style= {{'marginTop': 20}} className={currentPath==='/Portfolio/contact' ? 'selectedItem': 'menuItem'} to = 'contact'>
+            <text className={currentPath==='/Portfolio/contact' ? 'selected': null}> Contact </text>
           </Link>
         </div>
 

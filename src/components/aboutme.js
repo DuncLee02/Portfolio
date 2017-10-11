@@ -29,7 +29,7 @@ class about extends Component {
           and manage the clubs finances.
           </p>
 
-          <text> what Ive been up to lately: </text>
+          <text> what I{"'"}ve been up to lately: </text>
           <ul>
             <li> Building this website! </li>
             <li> Taking classes on websecurity and SQL at the University of Virginia </li>
