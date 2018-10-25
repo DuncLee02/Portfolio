@@ -1,9 +1,7 @@
 
 .contactContainer{
-  width: 100%;
   text-align: left;
   display: flex;
-  margin-left: 220px;
   flex-direction: column;
 }
 

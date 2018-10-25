@@ -7,10 +7,10 @@ class Contact extends Component {
 
   render() {
     return (
-      <div className="contactContainer">
-        <div className='contactTopBar'>
+      <div className="contactContainer pageContainer">
+        <div className='pageHeader'>
           <br/>
-          <text className='contactTopBarTitle'> CONTACT </text>
+          <text className='header-text'> CONTACT </text>
         </div>
 
         <div className='contactInfoContainer'>

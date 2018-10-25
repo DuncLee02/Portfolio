@@ -12,7 +12,7 @@ import './base.css'
 class Base extends Component {
 
   render() {
-    console.log('vs. 1.3')
+    console.log('vs. 2.0')
 
     console.log(window.location.pathname)
 
@@ -27,13 +27,12 @@ class Base extends Component {
       <div className="baseLayout">
         <BrowserRouter>
           <div className="baseLayout">
-            <Route path='/' component={Menu}/>
             <Route exact path='/Portfolio' component={About}/>
             <Route path="/Portfolio/portfolio" component={Portfolio} />
             <Route path="/Portfolio/about" component={About}/>
             <Route path="/Portfolio/skills" component={Skills}/>
             <Route path="/Portfolio/contact" component={Contact}/>
-
+            <Route path='/' component={Menu}/>
           </div>
         </BrowserRouter>
       </div>

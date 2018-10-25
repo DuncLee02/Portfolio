@@ -3,3 +3,20 @@
 .baseLayout {
   width: 100%;
 }
+
+.pageHeader{
+  width: 100%;
+  height: 100px;
+  background-color: #28c9b9;
+  opacity: 0.9;
+  z-index: 5;
+  text-align: left;
+  position: relative;
+}
+
+.header-text{
+  font-size: 30px;
+  margin: 40px;
+  color: white;
+  text-align: left;
+}
